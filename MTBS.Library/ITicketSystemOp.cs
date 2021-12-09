@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MTBS.Library
 {
-    interface ITicketSystemOp
+    public interface ITicketSystemOp
     {
         public void ChooseFromCatalog();
         public void ChooseDateTime();

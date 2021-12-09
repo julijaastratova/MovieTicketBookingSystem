@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MTBS.Library
 {
-    class TicketSystemOp : ITicketSystemOp
+   public class TicketSystemOp : ITicketSystemOp
     {
         public void BuyTicket()
         {
