@@ -8,6 +8,9 @@ namespace MTBS.Library
 {
    public class TicketSystemOp : ITicketSystemOp
     {
+        public List<Ticket> TicketList = new List<Ticket>(50);
+
+
         public void BuyTicket()
         {
             throw new NotImplementedException();
@@ -15,7 +18,7 @@ namespace MTBS.Library
 
         public void CheckAvailability()
         {
-            throw new NotImplementedException();
+            var count = TicketList.Count(x => x != null && x.Available == true);
         }
 
         public void ChooseDateTime()
@@ -42,5 +45,7 @@ namespace MTBS.Library
         {
             throw new NotImplementedException();
         }
+
+
     }
 }

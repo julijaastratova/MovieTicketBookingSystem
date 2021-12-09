@@ -11,14 +11,14 @@ namespace MTBS.Library
         public string Movie { get; set; }
         public DateTime Date { get; set; }
         public int Seat { get; set; }
-        public int Theater { get; set; }
+        //public int Theater { get; set; }
         public string TicketType { get; set; }
-        public bool Available
-        {
-            get => Convert.ToInt32(Seat) > 50;
-            set => Available = value;
-        }
-        
+        public bool Available { get; set; }
+        //{
+        //    get => Convert.ToInt32(Seat) > 50;
+        //    set => Available = value;
+        //}
+
 
     }
 }
