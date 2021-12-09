@@ -22,6 +22,6 @@ namespace MovieTicketBookingSystem
                 {
                     webBuilder.UseStartup<Startup>();
                 });
-        //comment
+        
     }
 }
