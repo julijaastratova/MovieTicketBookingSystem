@@ -38,7 +38,7 @@ namespace MTBS.Library
             throw new NotImplementedException();
         }
 
-        public void ShooseSeat()
+        public void ChooseSeat()
         {
             throw new NotImplementedException();
         }

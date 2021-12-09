@@ -10,7 +10,7 @@ namespace MTBS.Library
     {
         public void ChooseFromCatalog();
         public void ChooseDateTime();
-        public void ShooseSeat();
+        public void ChooseSeat();
         public void ChooseTicketType();
         public void CheckAvailability();
         public void BuyTicket();
