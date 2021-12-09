@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MTBS.Library
 {
-    class TicketSystemOp : ITicketSystemOp
+   public class TicketSystemOp : ITicketSystemOp
     {
         public void BuyTicket()
         {
@@ -38,7 +38,7 @@ namespace MTBS.Library
             throw new NotImplementedException();
         }
 
-        public void ShooseSeat()
+        public void ChooseSeat()
         {
             throw new NotImplementedException();
         }

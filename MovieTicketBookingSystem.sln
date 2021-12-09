@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31727.386
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieTicketBookingSystem", "MovieTicketBookingSystem\MovieTicketBookingSystem.csproj", "{7D6A147F-5F83-46ED-8ABD-E69788222EE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTBS.Library", "MTBS.Library\MTBS.Library.csproj", "{3715A8CA-836E-461E-B018-AF4575703695}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTBS.Library", "MTBS.Library\MTBS.Library.csproj", "{3715A8CA-836E-461E-B018-AF4575703695}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

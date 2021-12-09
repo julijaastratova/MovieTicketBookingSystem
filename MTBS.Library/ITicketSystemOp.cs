@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace MTBS.Library
 {
-    interface ITicketSystemOp
+    public interface ITicketSystemOp
     {
         public void ChooseFromCatalog();
         public void ChooseDateTime();
-        public void ShooseSeat();
+        public void ChooseSeat();
         public void ChooseTicketType();
         public void CheckAvailability();
         public void BuyTicket();
